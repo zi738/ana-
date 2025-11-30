@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+         body {
+    background: url('antique-cafe-bg-01.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+}
+
+.contact-container {
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-info h3, .contact-form h3 {
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+.contact-form p {
+    font-size: 14px;
+    color: #7b7b7b;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>Address:</strong> 123 Zezenia St., Alexandria</p>
+            <p><strong>Phone:</strong> 0123456789</p>
+            <p><strong>Email:</strong> Support@coffelab.com</p>
+        </div>
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <p>If you have any questions or queries, feel free to send us a message. We’re here to help!</p>
+            <form action="#" method="post">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+                <textarea placeholder="Enter your message" required></textarea>
+                <button type="submit">Send Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
